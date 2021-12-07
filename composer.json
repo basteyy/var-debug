@@ -1,6 +1,14 @@
 {
   "name": "basteyy/var-debug",
   "description": "Simple var dumper",
+  "license": "CC0-1.0",
+  "authors" : [
+    {
+      "name": "Sebastian Eiweleit",
+      "email": "sebastian@eiweleit.de",
+      "role": "Developer"
+    }
+  ],
   "autoload": {
     "files": [
       "src/varDebug.php"
