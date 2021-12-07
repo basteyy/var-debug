@@ -1,0 +1,9 @@
+{
+  "name": "basteyy/var-debug",
+  "description": "Simple var dumper",
+  "autoload": {
+    "files": [
+      "src/varDebug.php"
+    ]
+  }
+}
