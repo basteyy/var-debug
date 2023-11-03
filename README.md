@@ -12,7 +12,7 @@ it a variable and it will return a page with the variable's contents in a readab
 require_once 'vendor/autoload.php';
 
 // use the function
-dump($variable);
+varDebug($variable);
 ```
 
 ## Installation
