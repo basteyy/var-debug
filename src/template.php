@@ -183,7 +183,7 @@ declare(strict_types=1);
         });
     </script>
     <footer>
-        Problems or suggestions? Submit it on <a title="This script on GitHub" href="https://github.com/basteyy/various-php-snippets">github/basteyy/various-php-snippets</a>
+        Problems or suggestions? Submit it on <a title="This script on GitHub" href="https://github.com/basteyy/var-debug/">https://github.com/basteyy/var-debug/</a>
     </footer>
 </body>
 </html>
