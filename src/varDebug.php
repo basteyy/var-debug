@@ -26,7 +26,7 @@ if (!function_exists('varDebug')) {
                 $data = ob_get_clean();
                 return is_string($data) ? (htmlentities($data)) : 'nodata' . $data;
             } catch (\Throwable $ex) {
-                // PHP8 ArgumentCountError for 0 arguments, probably..
+                // PHP8 ArgumentCountError for 0 arguments, probably.
                 // in php<8 this was just a warning
                 ob_end_clean();
                 throw $ex;
