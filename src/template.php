@@ -187,6 +187,8 @@ declare(strict_types=1);
     <?= $backtrace_output ?? '' ?>
 </div>
 <script>
+    /** Check (and open) first item **/
+    document.querySelector(".accordion input:first-of-type").checked = true;
 
     /** Loop through all items with the copy class and allow copy content to clipboard **/
     document.querySelectorAll(".copy").forEach(function (element, index, array) {
