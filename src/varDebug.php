@@ -185,7 +185,7 @@ if (!function_exists('varDebug')) {
 
             foreach (debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS) as $file) {
 
-                if (!$file['file']) continue; // Skip internal functions (like varDebug()
+                if (!isset($file['file'])) continue; // Skip internal functions (like varDebug()
 
                 $filename = $file['file'];
                 $line = $file['line'];
